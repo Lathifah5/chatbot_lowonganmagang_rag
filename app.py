@@ -135,6 +135,7 @@ def inject_app_theme_css() -> None:
 def render_hero_header() -> None:
     now = datetime.now(ZoneInfo("Asia/Jakarta"))
     emoji, greet = greeting_parts_for_hour(now.hour)
+
     st.markdown(
         f"""
         <div class="kb-hero-zone">
@@ -142,9 +143,10 @@ def render_hero_header() -> None:
                 <p class="kb-greet-plain">
                     <span class="kb-greet-emoji">{emoji}</span>{greet}
                 </p>
-                <h1 class="kb-title-full">Asisten Pencarian Lowongan Magang & Kerja Berbasis RAG</h1>
+                <h1 class="kb-title-full">
+                    Asisten Pencarian Lowongan Magang & Kerja Berbasis RAG
+                </h1>
             </div>
-        </div>
         """,
         unsafe_allow_html=True,
     )
