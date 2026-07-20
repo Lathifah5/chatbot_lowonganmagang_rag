@@ -65,6 +65,35 @@ def inject_app_theme_css() -> None:
             background: rgba(255, 255, 255, 0.78);
             backdrop-filter: blur(12px);
         }
+
+        html {
+        color-scheme: light;
+    }
+
+        body {
+        color: #1f2937 !important;
+        background-color: #ffffff !important;
+    }
+
+        [data-testid="stAppViewContainer"] {
+        color: #1f2937 !important;
+    }
+
+        [data-testid="stMarkdownContainer"] {
+        color: #1f2937 !important;
+    }
+
+        [data-testid="stCaptionContainer"] {
+        color: #6b7280 !important;
+    }
+
+        .stMarkdown,
+        .stText,
+        p,
+        span,
+        label {
+        color: #1f2937 !important;
+    }
         section[data-testid="stSidebar"] {
             background: linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(250,245,255,0.93) 100%);
             border-right: 1px solid rgba(124, 58, 237, 0.1);
@@ -124,6 +153,7 @@ def inject_app_theme_css() -> None:
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
+            color: #2563eb;
             animation: kbTitleSheen 11s linear infinite;
         }
         </style>
