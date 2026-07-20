@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment
+.env
+
+# Streamlit
+.streamlit/
+
+# Chroma Database
+chroma_db/
+
+# ZIP
+*.zip
+
+# macOS
+.DS_Store

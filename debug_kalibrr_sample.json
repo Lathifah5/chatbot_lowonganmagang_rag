@@ -1,0 +1,69 @@
+{
+  "activationDate": "2026-06-04T06:51:46.965752+00:00",
+  "applicationEndDate": "2026-08-02T17:00:00+00:00",
+  "applyRedirectUrl": null,
+  "baseSalary": null,
+  "bookmarked": false,
+  "company": {
+    "code": "pt-asuransi-allianz-life-indonesia",
+    "description": "Allianz Group is one of the most trusted insurance and asset management companies in the world. Caring for our employees, their ambitions, dreams and challenges, is \nwhat makes us a unique employer. Together we can build an environment where everyone feels empowered and has the confidence to explore, to grow and to shape a better \nfuture for our customers and the world around us. \n\nWe at Allianz believe in a diverse and inclusive workforce and are proud to be an equal opportunity employer. We encourage you to bring your whole self to work, no matter \nwhere you are from, what you look like, who you love or what you believe in. \nWe therefore welcome applications regardless of ethnicity or cultural background, age, gender, nationality, religion, or disability. \n\nJoin us. Let's care for tomorrow\n\n\"The entire recruitment process at Allianz Indonesia is free of charge. Please find out further information at our official website www.allianz.co.id\"",
+    "id": 25776,
+    "industry": "Insurance",
+    "logoSmall": "https://rec-data.kalibrr.com/www.kalibrr.ph/logos/FLX7TLPLQUAZD6946SDYDREGYLPERHGEBDAB455P-5d15d2cf.png",
+    "name": "PT Asuransi Allianz Life Indonesia",
+    "verifiedBusiness": true,
+    "visible": true
+  },
+  "companyInfo": {
+    "code": "pt-asuransi-allianz-life-indonesia",
+    "description": "Allianz Group is one of the most trusted insurance and asset management companies in the world. Caring for our employees, their ambitions, dreams and challenges, is \nwhat makes us a unique employer. Together we can build an environment where everyone feels empowered and has the confidence to explore, to grow and to shape a better \nfuture for our customers and the world around us. \n\nWe at Allianz believe in a diverse and inclusive workforce and are proud to be an equal opportunity employer. We encourage you to bring your whole self to work, no matter \nwhere you are from, what you look like, who you love or what you believe in. \nWe therefore welcome applications regardless of ethnicity or cultural background, age, gender, nationality, religion, or disability. \n\nJoin us. Let's care for tomorrow\n\n\"The entire recruitment process at Allianz Indonesia is free of charge. Please find out further information at our official website www.allianz.co.id\"",
+    "hidden": false,
+    "industry": "Insurance",
+    "isDemo": false,
+    "logo": "https://rec-data.kalibrr.com/www.kalibrr.ph/logos/K2PXQ2XNS7P5CRP5AKSTHY984QALZ56BPSE7TUW2-5d15d2ce.png",
+    "logo_1200x630": "https://rec-data.kalibrr.com/www.kalibrr.ph/logos/MYKWD4764RFQ8QAHD6QQ6MHQRHHNVLJP8NHU6P26-5d15d2d1.png",
+    "logo_160x90": "https://rec-data.kalibrr.com/www.kalibrr.ph/logos/RPUB9HGD6EA7PJQUXWVCDE22VAG6HCUJ2Z86YZH2-5d15d2d0.png",
+    "logoSmall": "https://rec-data.kalibrr.com/www.kalibrr.ph/logos/FLX7TLPLQUAZD6946SDYDREGYLPERHGEBDAB455P-5d15d2cf.png",
+    "name": "PT Asuransi Allianz Life Indonesia",
+    "url": "https://www.allianz.co.id/"
+  },
+  "companyName": "PT Asuransi Allianz Life Indonesia",
+  "createdAt": "2026-06-04T06:51:43.138767+00:00",
+  "description": "<ul>\n\t<li>To support Tax team in Allianz Life Syariah on pending reporting (new implemented government tax system/coretax)</li>\n\t<li>Assisting team in tax administration during peak season of annual and quarterly reporting</li>\n</ul>",
+  "distanceFromUser": null,
+  "educationLevel": 200,
+  "esIsTopBrand": false,
+  "esRecruiterLastSeen": "2026-06-23T04:19:30.614718+00:00",
+  "examVersions": [],
+  "function": "Accounting and Finance",
+  "googleLocation": {
+    "addressComponents": {
+      "city": "South Jakarta",
+      "country": "Indonesia",
+      "region": "DKI Jakarta"
+    }
+  },
+  "id": 268110,
+  "isFeatured": false,
+  "isHybrid": true,
+  "isOpenToFreshGrads": false,
+  "isWorkFromHome": false,
+  "maximumSalary": null,
+  "name": "Tax Internship",
+  "numberOfOpenings": 1,
+  "perks": {
+    "other": null,
+    "types": []
+  },
+  "photoUrls": [],
+  "priorityScore": 0.5,
+  "qualifications": "<ul>\n\t<li>Last Semester or Bachelor Degree in related major</li>\n\t<li>Available for minimum of 6 months internship period</li>\n\t<li>Strong analytical and planning skills;</li>\n\t<li>Good communication and presentation skills;</li>\n\t<li>Excellent problem-solving skills;</li>\n</ul>",
+  "responseRate": 2.34375,
+  "salaryCurrency": null,
+  "salaryInterval": null,
+  "salaryShown": true,
+  "slug": "tax-internship",
+  "tenure": "Contractual",
+  "visibility": "public",
+  "workExperience": 100
+}
