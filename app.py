@@ -208,7 +208,7 @@ def _get_db_last_updated_date() -> str:
 
 COLLECTION_NAME = "lowongan_magang"
 DB_DIR = "chroma_db"
-DEEPSEEK_MODEL = "deepseek-chat"
+DEEPSEEK_MODEL = "deepseek/deepseek-v3.2"
 
 # Daftar 22 kategori spesialisasi resmi yang ditampilkan Kalibrr pada halaman
 # kategori pekerjaan mereka (kalibrr.com/job-category), dipetakan ke nilai
@@ -1503,9 +1503,9 @@ def generate_answer(question: str, contexts: List[str]) -> str:
         return ""
 
     client = OpenAI(
-        api_key=api_key,
-        base_url="https://api.deepseek.com",
-    )
+    api_key=api_key,
+    base_url="https://api.maiarouter.ai/v1",
+)
 
     system_prompt = (
         "Kamu adalah asisten chatbot khusus informasi lowongan magang dan pekerjaan di Indonesia. "
