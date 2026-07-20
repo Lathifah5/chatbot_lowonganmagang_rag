@@ -156,6 +156,27 @@ def inject_app_theme_css() -> None:
             color: #2563eb;
             animation: kbTitleSheen 11s linear infinite;
         }
+
+        /* ===== FIX DARK MODE ===== */
+
+        @media (prefers-color-scheme: dark) {
+
+            div[data-testid="stMarkdownContainer"] p,
+            div[data-testid="stMarkdownContainer"] strong,
+            div[data-testid="stMarkdownContainer"] span{
+            color:#ffffff !important;
+        }
+
+            div[data-testid="stCaptionContainer"]{
+            color:#d1d5db !important;
+        }
+
+            div[data-testid="stCaptionContainer"] p{
+            color:#d1d5db !important;
+        }
+
+    }
+
         </style>
         """,
         unsafe_allow_html=True,
