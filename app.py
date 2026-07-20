@@ -71,6 +71,11 @@ def inject_app_theme_css() -> None:
     }
 
         body {
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+        
         color: #1f2937 !important;
         background-color: #ffffff !important;
     }
@@ -165,10 +170,15 @@ def inject_app_theme_css() -> None:
             div[data-testid="stMarkdownContainer"] strong,
             div[data-testid="stMarkdownContainer"] span{
             color:#ffffff !important;
+
+                color:#FAFAFA !important;
+                text-shadow:0 0 1px rgba(255,255,255,.25);
         }
 
             div[data-testid="stCaptionContainer"]{
             color:#d1d5db !important;
+                color:#E5E7EB !important;
+                text-shadow:0 0 1px rgba(255,255,255,.25);
         }
 
             div[data-testid="stCaptionContainer"] p{
