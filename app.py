@@ -8,6 +8,7 @@ from __future__ import annotations
 import os
 import re
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from io import BytesIO
 from typing import Dict, List, Tuple
 
@@ -132,7 +133,7 @@ def inject_app_theme_css() -> None:
 
 
 def render_hero_header() -> None:
-    now = datetime.now()
+    now = datetime.now(ZoneInfo("Asia/Jakarta"))
     emoji, greet = greeting_parts_for_hour(now.hour)
     st.markdown(
         f"""
