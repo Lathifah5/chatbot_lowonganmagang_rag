@@ -1596,33 +1596,33 @@ Format jawaban:
 """
 
     try:
-            response = client.chat.completions.create(
+        response = client.chat.completions.create(
             model=DEEPSEEK_MODEL,
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
-        ],
-        max_tokens=1000,
-        temperature=0.3,
-    )
+            ],
+            max_tokens=1000,
+            temperature=0.3,
+        )
 
-            result = response.choices[0].message.content
-            return result if result else "Tidak ada jawaban dari model."
+        result = response.choices[0].message.content
+        return result if result else "Tidak ada jawaban dari model."
 
     except Exception as exc:
         import traceback
-    traceback.print_exc()
+        traceback.print_exc()
 
-    print("ERROR ASLI:", repr(exc))
+        print("ERROR ASLI:", repr(exc))
 
-    try:
-        if hasattr(exc, "response"):
-            print("STATUS:", exc.response.status_code)
-            print("BODY:", exc.response.text)
-    except Exception:
-        pass
+        try:
+            if hasattr(exc, "response"):
+                print("STATUS:", exc.response.status_code)
+                print("BODY:", exc.response.text)
+        except Exception:
+            pass
 
-    return f"__ERROR__: {repr(exc)}"
+        return f"__ERROR__: {repr(exc)}"
 
 
 def main() -> None:
