@@ -1608,10 +1608,18 @@ Format jawaban:
         result = response.choices[0].message.content
         return result if result else "Tidak ada jawaban dari model."
     except Exception as exc:
-        err_text = str(exc)
-        if "402" in err_text or "Insufficient Balance" in err_text:
-            return "__SALDO_HABIS__"
-        return f"__ERROR__: {err_text}"
+            import traceback
+
+            print("=" * 80)
+            traceback.print_exc()
+            print("=" * 80)
+
+            err_text = repr(exc)
+
+            if "402" in err_text or "Insufficient Balance" in err_text:
+                return "__SALDO_HABIS__"
+
+    return f"__ERROR__: {err_text}"
 
 
 def main() -> None:
